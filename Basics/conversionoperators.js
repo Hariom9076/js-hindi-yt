@@ -96,6 +96,6 @@ console.log(1 + 2 + "2"); //32  here string come last so first conversion
 
 console.log(true); //true
 console.log(+true); //1
-console.log(+""); //0
+console.log(+""); //0 
 
 
