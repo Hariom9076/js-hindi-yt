@@ -25,13 +25,13 @@ console.log(anotherstring); //io
 
 
 const newstring1 = "  hariom  "
-console.log(newstring1);
-console.log(newstring1.trim());
+console.log(newstring1); //    hariom   
+console.log(newstring1.trim()); //hariom   here remove the space left and right side
 
 const url = "https://hariom.com/hariom%20singh"
-console.log(url.replace('%20','-'));
+console.log(url.replace('%20','-')); //https://hariom.com/hariom-singh
 
 
-console.log(url.includes('hariom'))
+console.log(url.includes('hariom')) //true   it give true or false value
 
-console.log(name1.split('-'));
+console.log(name1.split('-')); //['hariom','9076']   it gives as word form in array
