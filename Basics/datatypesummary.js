@@ -29,3 +29,32 @@ const myfunction = function(){
     
 }
 
+
+
+
+// memory -------
+
+// two types memory stack(used in primitive datatype), heap(used in non-primitive datatype)
+
+//stack used
+let myname ="hariom@gmail.com"
+let anothername = myname
+anothername = "hari@gmail.com"
+console.log(myname);
+console.log(anothername);
+
+
+//Heap used
+
+let userone ={
+    email:"user@gmail.com",
+    upi:"user@gbl"
+}
+
+let usertwo = userone
+
+usertwo.email = "hariom@gmail.com"
+
+console.log(userone.email);
+console.log(usertwo.email);
+
